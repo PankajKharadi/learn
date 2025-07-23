@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Badri Sarjan Foundation</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;} 
+}
+
+
+
+
+
+    #nav
+      {
+         background-color: rgb(0, 0, 0);
+         padding: 20px;
+      }
+
+      a
+   {
+      padding: 10px;
+     
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+   }
+   #home
+   {
+     margin-left: 200px;
+     border-radius: 2px;
+     font-size: 30px;
+   }
+   #about
+   {
+     margin-left: 181px;
+     border-radius: 2px;
+     font-size: 30px;
+   }
+   #contacts
+   {
+     margin-left: 181px;
+     background-color: white;
+     color: black;
+     border-radius: 2px;
+     font-size: 30px;
+     position: relative;
+     animation-name: example;
+  animation-duration: 4s;
+    }
+   #gallery
+   {
+     margin-left: 181px;
+     border-radius: 2px; 
+     font-size: 30px;
+   }
+   body{
+    background-color: black;
+   }
+   #h1-1
+   {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   }
+   #div-1{
+
+color: rgb(0, 0, 0);
+margin-right: 100px;
+margin-left: 1000px;
+border: 2px solid white;
+background-color: white;
+padding: 30px;
+font-size: 20px;
+display: block;
+   }
+   #sent-1{
+
+    width: 100px;
+    padding: 8px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+   }
+   input :active
+   {
+        background-color: gray;
+        color: black;
+
+    }
+   #icon{
+    color: rgb(255, 255, 255);
+    margin-top: -450px;
+    font-size:36px;
+    margin-left: 100px;
+   }
+   .Address-1{
+
+    color: aqua;
+    
+   }
+   font{
+
+font-size: 30px;
+
+   }
+   #home:hover
+   {
+ 
+  color:black;
+  background-color:white;
+  border-radius:2px;
+}
+#contacts:hover
+{
+ 
+ color:black;
+ background-color:white;
+ border-radius:2px;
+}
+#about:hover
+{
+ 
+ color:black;
+ background-color:white;
+ border-radius:2px;
+}
+#gallery:hover
+{
+ 
+ color:black;
+ background-color:white;
+ border-radius:2popuppx;
+}
+.popup{
+    
+  color: aliceblue  ;
+}
+
+</style>
+</head>
+
+   <body>
+    <b>
+ 
+    <div id="nav">
+        <a id="home" href="MUltiple_Page.html">Home</a>
+        <a id="about" href="about.html">About</a>
+        <a id="contacts" href="contect.html">Contacts</a>
+        <a id="gallery" href="Gallery.html">Gallery</a>
+     </div>
+     
+<br>
+<br>
+
+     <h1 id="h1-1">Contact Us</h1>
+    </b>
+
+<div id="div-1">
+    <form>
+
+<h1>Sent message</h1>
+<label for="fname">Full name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br><br>
+  
+  <label for="lname"> Department name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br><br>
+
+  <label for="lname"> Message</label><br>
+  <input type="text" id="lname" name="lname" value="Youre message:"><br><br><br>
+
+
+ <input type="submit" value="Send" id="sent-1" onclick="myFunction()">
+
+</form>
+
+
+</div>
+
+<div id="icon">
+  <i class="fa fa-home" > &nbsp; <b class="Address-1">Address </b> </i>  <br>
+
+    <font> &nbsp;&nbsp;&nbsp; mota chiloda , gandhinager <br>  &nbsp; &nbsp;&nbsp;gujarat , 
+  390264
+</font>
+
+ 
+  <br>
+  <br>
+  <br>
+  <i class="fa fa-phone" >&nbsp;   <b class="Address-1">Phone </b></i>
+  <br>
+  <font>  &nbsp;&nbsp;&nbsp;&nbsp;9083940976
+  </font>
+  
+  <br>
+  <br>
+  <br>
+  <i class="fa fa-envelope" style="font-size:36px">&nbsp;&nbsp;<b class="Address-1">Email</b></i>
+  <br>
+  <font>  &nbsp;&nbsp;&nbsp;&nbsp;badrisrajan@gmail.com
+  </font>
+</div>
+
+
+
+<script>
+
+
+  function myFunction()
+   {
+       alert("Your form ragistered successfully");
+   }
+
+ 
+  </script>
+
+
+</body>
+</html> 
